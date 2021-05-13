@@ -1,0 +1,1 @@
+Simple react app that uses Apollo to pull data from Graph CMS and is built using Vite.
