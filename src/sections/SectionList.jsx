@@ -15,7 +15,7 @@ export default function SectionList({ sections }) {
 
 function renderSection(pageSection) {
   switch (pageSection.componentType) {
-    case 'Bullets':
+    case 'Tiles':
       return <TileContainer pageSection={pageSection} key={pageSection.id} />;
     case 'Text':
       return <Text pageSection={pageSection} key={pageSection.id} />;

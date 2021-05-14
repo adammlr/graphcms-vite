@@ -14,7 +14,7 @@ export default function TileContainer({ pageSection }) {
     >
       <SectionItem>
         <div className="tile-list">
-          {pageSection.bulletPoints.map((tile) => {
+          {pageSection.tiles.map((tile) => {
             return <Tile tile={tile} key={tile.id} />;
           })}
         </div>

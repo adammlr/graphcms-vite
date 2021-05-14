@@ -9,11 +9,11 @@ const QUERY = gql`
     pages {
       title
       sections {
-        ... on BulletSection {
+        ... on TileSection {
           id
           componentType
           inverted
-          bulletPoints {
+          tiles {
             id
             line1
             line2
