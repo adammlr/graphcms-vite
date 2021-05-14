@@ -1,8 +1,15 @@
+import { gql, useQuery } from '@apollo/client';
 import React from 'react';
-
-import './App.css';
-import { useQuery, gql } from '@apollo/client';
 import SectionList from './sections/SectionList';
+
+export default function App() {
+  const { loading, error, data } = useQuery(QUERY);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error :(</p>;
+
+  return <SectionList sections={data.pages[0].sections} />;
+}
 
 const QUERY = gql`
   query PageData {
@@ -45,12 +52,3 @@ const QUERY = gql`
     }
   }
 `;
-
-export default function App() {
-  const { loading, error, data } = useQuery(QUERY);
-
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error :(</p>;
-
-  return <SectionList sections={data.pages[0].sections} />;
-}

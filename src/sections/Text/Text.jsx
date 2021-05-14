@@ -8,14 +8,14 @@ export default function Text({ pageSection }) {
     <div
       className={clsx({
         inverted: pageSection.inverted,
-        textContainer: true,
+        'text-container': true,
       })}
     >
       <SectionItem>
-        <div className={clsx({ textImageContainer: pageSection.image })}>
-          <div className="textList">
-            <div className="textLine1">{pageSection.line1}</div>
-            <div className="textLine2">{pageSection.line2}</div>
+        <div className={clsx({ 'text-image-container': pageSection.image })}>
+          <div className="text-list">
+            <div className="text-line-1">{pageSection.line1}</div>
+            <div className="text-line-2">{pageSection.line2}</div>
           </div>
           {pageSection.image && (
             <div>

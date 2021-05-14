@@ -1,8 +1,8 @@
+import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
+import './main.css';
 
 const client = new ApolloClient({
   uri: 'https://api-us-east-1.graphcms.com/v2/ckjlxpvg9epv701z0b07kfgqc/master',

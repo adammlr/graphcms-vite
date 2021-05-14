@@ -1,7 +1,6 @@
 import React from 'react';
-import TileContainer from './Tile/TileContainer';
 import Text from './Text/Text';
-import './SectionList.css';
+import TileContainer from './Tile/TileContainer';
 
 export default function SectionList({ sections }) {
   return (
