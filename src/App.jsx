@@ -37,6 +37,9 @@ const QUERY = gql`
           line3
           buttonText
           comment
+          photo {
+            url(transformation: { image: { resize: { width: 1200 } } })
+          }
         }
         ... on TextSection {
           id
