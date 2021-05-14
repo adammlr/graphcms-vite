@@ -1,0 +1,17 @@
+.tile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 122px;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.tile__text {
+  text-align: center;
+}
+
+.tile__text2 {
+  color: #82a4b2;
+  margin-top: -30px;
+}

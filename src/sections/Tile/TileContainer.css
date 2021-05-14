@@ -1,0 +1,18 @@
+.tile-container {
+  background-color: #ffffff;
+  color: #0b4f6c;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.tile-container.inverted {
+  background-color: #0b4f6c;
+  color: #b1c6cf;
+}
+
+.tile-list {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 
 import './App.css';
 import { useQuery, gql } from '@apollo/client';
+import SectionList from './sections/SectionList';
 
 const QUERY = gql`
   query PageData {
@@ -9,9 +10,11 @@ const QUERY = gql`
       title
       sections {
         ... on BulletSection {
+          id
           componentType
           inverted
           bulletPoints {
+            id
             line1
             line2
             image {
@@ -20,6 +23,7 @@ const QUERY = gql`
           }
         }
         ... on CallToActionSection {
+          id
           componentType
           line1
           line2
@@ -28,7 +32,9 @@ const QUERY = gql`
           comment
         }
         ... on TextSection {
+          id
           componentType
+          inverted
           line1
           line2
           image {
@@ -40,13 +46,11 @@ const QUERY = gql`
   }
 `;
 
-function App() {
+export default function App() {
   const { loading, error, data } = useQuery(QUERY);
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error :(</p>;
 
-  return <pre>{JSON.stringify(data, null, 2)}</pre>;
+  return <SectionList sections={data.pages[0].sections} />;
 }
-
-export default App;

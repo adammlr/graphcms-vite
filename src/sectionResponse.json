@@ -1,0 +1,122 @@
+{
+  "pages": [
+    {
+      "__typename": "Page",
+      "title": "Bring Your Own Phone",
+      "sections": [
+        {
+          "__typename": "CallToActionSection",
+          "componentType": "CallToAction",
+          "line1": "Internet + Bring Your Own Device",
+          "line2": "Starting at $100",
+          "line3": "Save $50 when you bundle",
+          "buttonText": "Shop Now",
+          "comment": "Take control of your Wi-Fi network, your connected devices and your smart home with Digico internet"
+        },
+        {
+          "__typename": "BulletSection",
+          "componentType": "Bullets",
+          "inverted": false,
+          "bulletPoints": [
+            {
+              "__typename": "BulletPoint",
+              "line1": "Pick your plan",
+              "line2": "to suit your needs.",
+              "image": {
+                "__typename": "Asset",
+                "url": "https://media.graphcms.com/hJsCOneaTaacddu9DyIP"
+              }
+            },
+            {
+              "__typename": "BulletPoint",
+              "line1": "Share",
+              "line2": "with your family.",
+              "image": {
+                "__typename": "Asset",
+                "url": "https://media.graphcms.com/fTfOaronSGCxuLMGypBw"
+              }
+            },
+            {
+              "__typename": "BulletPoint",
+              "line1": "Manage",
+              "line2": "spend & track usage.",
+              "image": {
+                "__typename": "Asset",
+                "url": "https://media.graphcms.com/MwZzmQitS1yvKRRJeH8A"
+              }
+            },
+            {
+              "__typename": "BulletPoint",
+              "line1": "Free 10 day trial",
+              "line2": "cancel if not happy.",
+              "image": {
+                "__typename": "Asset",
+                "url": "https://media.graphcms.com/x0NVmB3VSJK0dNm82E1Q"
+              }
+            }
+          ]
+        },
+        {
+          "__typename": "TextSection",
+          "componentType": "Text",
+          "line1": "Coast to Coast Coverage",
+          "line2": "Enjoy fast 4G LTE speeds and great coverage both in the city and when you are out and about exploring.",
+          "image": {
+            "__typename": "Asset",
+            "url": "https://media.graphcms.com/VeNRl8nXSOWsQulAS8Tw"
+          }
+        },
+        {
+          "__typename": "TextSection",
+          "componentType": "Text",
+          "line1": "No annual contracts",
+          "line2": "We're so confident you'll love our services, we don't lock you into an annual contract.",
+          "image": null
+        },
+        {
+          "__typename": "BulletSection",
+          "componentType": "Bullets",
+          "inverted": true,
+          "bulletPoints": [
+            {
+              "__typename": "BulletPoint",
+              "line1": "Easily switch between plans.",
+              "line2": null,
+              "image": {
+                "__typename": "Asset",
+                "url": "https://media.graphcms.com/uzr1ZvAUSdeVRZ1rPKdJ"
+              }
+            },
+            {
+              "__typename": "BulletPoint",
+              "line1": "Manage on the go.",
+              "line2": null,
+              "image": {
+                "__typename": "Asset",
+                "url": "https://media.graphcms.com/OPRWdkh3RFWhfGHeolcO"
+              }
+            },
+            {
+              "__typename": "BulletPoint",
+              "line1": "You're never locked in.",
+              "line2": null,
+              "image": {
+                "__typename": "Asset",
+                "url": "https://media.graphcms.com/IipTbNbkSxKRohYuupxr"
+              }
+            },
+            {
+              "__typename": "BulletPoint",
+              "line1": "24/7 Support",
+              "line2": null,
+              "image": {
+                "__typename": "Asset",
+                "url": "https://media.graphcms.com/pTQmeM8QRMmH5OLGlQJd"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
